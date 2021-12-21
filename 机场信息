@@ -1,8 +1,0 @@
-#机场信息
-[Panel]
-Sub_info = script-name=Sub_info,update-interval = 43200
-
-
-[Script]
-# 必须修改的字段:你encode后的机场订阅链接
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=https%3A%2F%2Fsublink.online%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D39cea2053df03365feabb094776f27dd&reset_day=1&title=Miaona!&icon=opticaldisc&color=#5AC8FA
