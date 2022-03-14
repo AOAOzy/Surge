@@ -1,3 +1,7 @@
+#!name=Surge Pro
+#!desc=Surge Pro
+
+
 #Surge Pro标题,可显示启动时间,点击刷新为重载配置
 [Panel]
 SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
