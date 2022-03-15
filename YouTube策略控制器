@@ -3,8 +3,7 @@
 
 
 [Panel]
-#YouTube
-#ytb_check = script-name=ytb_check, title="YouTube Premium 解锁检测", update-interval=36000
+ytb_check = script-name=ytb_check, title="YouTube Premium 解锁检测", update-interval=36000
 
 [Script]
-#disney_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3/raw/disney_check.js
+disney_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/729fc4c3ac28c3f2e7c4a832d81780f3/raw/disney_check.js
