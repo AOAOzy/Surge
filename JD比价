@@ -1,0 +1,7 @@
+#!name=JD比价
+#!desc=JD比价
+
+[Script]
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+[MITM]
+hostname = api.m.jd.com
